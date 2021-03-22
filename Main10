@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main10{
+public static void main(String[] args){
+List<String>fruits=new ArrayList<>();
+fruits.add("apple");
+fruits.add("mango");
+fruits.add("grapes");
+fruits.add("chicoo");
+String temp[]=new String[fruits.size()];
+fruits.toArray(temp);
+for(String e:temp){
+System.out.println(e);
+}
+}
+}
